@@ -11,12 +11,8 @@ groupIds = ['1', '2', '3', '4', '5']
 
 def start():
 
-	ip = getIp()
-	#ip = '192.168.1.10'
 	global url
-	url = 'http://' + ip + '/api/7jhcjMbfoBLLWxEHPi8ZAa0ZFHNCq5jueS3-WFtz';
-
-
+	url = getUrl()
 	ctVal = getCtVal()
 
 	for groupId in groupIds:
@@ -25,9 +21,21 @@ def start():
 	print("success")
 
 
-def getIp():
-	now = datetime.now()
-	if now.minute > 58:
+
+def buildUrl(ip):
+	return 'http://' + ip + '/api/7jhcjMbfoBLLWxEHPi8ZAa0ZFHNCq5jueS3-WFtz';
+
+def getUrl():
+	
+	ip = f.read()
+	url = buildUrl(ip)
+	
+	try:
+		resp = requests.head(url + '/scenes')
+		print(resp.status_code)
+		return url
+
+	except requests.ConnectionError:
 		resp = requests.get('https://discovery.meethue.com/')
 		data = json.loads(resp.text)
 		newIp = data[0]['internalipaddress']
@@ -35,11 +43,7 @@ def getIp():
 		f.write(newIp)
 		f.truncate()
 		f.close()
-		return newIp
-	else: 
-	
-		newIp = f.read()
-		return newIp
+		return buildUrl(newIp)
 
 def findScene(ctVal, id):
 	scenes = getScenes()
