@@ -23,7 +23,7 @@ def start():
 
 
 def buildUrl(ip):
-	return 'http://' + ip + '/api/7jhcjMbfoBLLWxEHPi8ZAa0ZFHNCq5jueS3-WFtz';
+	return 'http://' + ip + '/api/7jhcjMbfoBLLWxEHPi8ZAa0ZFHNCq5jueS3-WFtz'
 
 def getUrl():
 	

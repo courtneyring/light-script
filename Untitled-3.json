@@ -1,0 +1,53 @@
+{
+    "errors": [],
+    "data": [
+        {
+            "id": "00d914a3-93e2-4648-9c65-2ae38b78559b",
+            "id_v1": "/scenes/fBvyAAfm6S0JYnk",
+            "actions": [
+                {
+                    "target": {
+                        "rid": "f351425c-1477-463d-9005-9d7510a3dd88",
+                        "rtype": "light"
+                    },
+                    "action": {
+                        "on": {
+                            "on": true
+                        },
+                        "dimming": {
+                            "brightness": 100.0
+                        },
+                        "color_temperature": {
+                            "mirek": 346
+                        }
+                    }
+                }
+            ],
+            "palette": {
+                "color": [],
+                "dimming": [],
+                "color_temperature": [],
+                "effects": []
+            },
+            "recall": {},
+            "metadata": {
+                "name": "Read",
+                "image": {
+                    "rid": "e101a77f-9984-4f61-aac8-15741983c656",
+                    "rtype": "public_image"
+                },
+                "appdata": "ar7Ah_r03_d02"
+            },
+            "group": {
+                "rid": "026d4279-d29b-43c9-8502-709480789bf2",
+                "rtype": "room"
+            },
+            "speed": 0.5,
+            "auto_dynamic": false,
+            "status": {
+                "active": "inactive"
+            },
+            "type": "scene"
+        }
+    ]
+}

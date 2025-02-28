@@ -1,0 +1,182 @@
+{
+    "actions": [
+        {
+            "target": {
+                "rid": "f351425c-1477-463d-9005-9d7510a3dd88",
+                "rtype": "light"
+            },
+            "action": {
+                "dimming": {
+                    "brightness": 100.00
+                },
+                "color_temperature": {}
+            }
+        },
+        {
+            "target": {
+                "rid": "e6c1c907-4e77-4e32-9acf-1594826dd076",
+                "rtype": "light"
+            },
+            "action": {
+                "dimming": {
+                    "brightness": 100.00
+                },
+                "color_temperature": {}
+            }
+        },
+        {
+            "target": {
+                "rid": "d409aa88-7f44-4c3d-80ec-15ee3aeb62ed",
+                "rtype": "light"
+            },
+            "action": {
+                "dimming": {
+                    "brightness": 100.00
+                },
+                "color_temperature": {}
+            }
+        },
+        {
+            "target": {
+                "rid": "be21dc43-8f71-45ee-9cca-10bc3884caa0",
+                "rtype": "light"
+            },
+            "action": {
+                "dimming": {
+                    "brightness": 100.00
+                },
+                "color_temperature": {}
+            }
+        },
+        {
+            "target": {
+                "rid": "bcb7af1c-a7c3-4a47-b364-a7eb08cb9fb7",
+                "rtype": "light"
+            },
+            "action": {
+                "dimming": {
+                    "brightness": 100.00
+                },
+                "color_temperature": {}
+            }
+        },
+        {
+            "target": {
+                "rid": "7ca84fa4-24f1-42b9-b71d-6efc75942fdf",
+                "rtype": "light"
+            },
+            "action": {
+                "dimming": {
+                    "brightness": 100.00
+                },
+                "color_temperature": {}
+            }
+        },
+        {
+            "target": {
+                "rid": "6e12b8b3-3754-4025-b163-4c197a0b7149",
+                "rtype": "light"
+            },
+            "action": {
+                "dimming": {
+                    "brightness": 100.00
+                },
+                "color_temperature": {}
+            }
+        },
+        {
+            "target": {
+                "rid": "60a8c19a-67b8-4ccc-9587-a82528da4346",
+                "rtype": "light"
+            },
+            "action": {
+                "dimming": {
+                    "brightness": 100.00
+                },
+                "color_temperature": {}
+            }
+        },
+        {
+            "target": {
+                "rid": "5f8a82b4-609a-4f66-a53c-a37b4d672bdd",
+                "rtype": "light"
+            },
+            "action": {
+                "dimming": {
+                    "brightness": 100.00
+                },
+                "color_temperature": {}
+            }
+        },
+        {
+            "target": {
+                "rid": "49395582-8887-41c5-a2e9-023cce590788",
+                "rtype": "light"
+            },
+            "action": {
+                "dimming": {
+                    "brightness": 100.00
+                },
+                "color_temperature": {}
+            }
+        },
+        {
+            "target": {
+                "rid": "2d49c0e8-a691-433f-be84-041bbb860ba4",
+                "rtype": "light"
+            },
+            "action": {
+                "dimming": {
+                    "brightness": 100.00
+                },
+                "color_temperature": {}
+            }
+        },
+        {
+            "target": {
+                "rid": "23ca27f2-6694-48a0-b60e-cd3753426fb1",
+                "rtype": "light"
+            },
+            "action": {
+                "dimming": {
+                    "brightness": 100.00
+                },
+                "color_temperature": {}
+            }
+        },
+        {
+            "target": {
+                "rid": "16f6588b-7353-4c2b-a61d-138b97599b2a",
+                "rtype": "light"
+            },
+            "action": {
+                "dimming": {
+                    "brightness": 100.00
+                },
+                "color_temperature": {}
+            }
+        }
+    ],
+    "palette": {
+        "color": [],
+        "dimming": [],
+        "color_temperature": [
+            {
+                "color_temperature": {},
+                "dimming": {
+                    "brightness": 100.00
+                }
+            }
+        ],
+        "effects": []
+    },
+    "metadata": {
+        "name": ""
+    },
+    "group": {
+        "rid": "a5aecec3-bfc1-4547-aa80-c32612878b6e",
+        "rtype": "zone"
+    },
+    "speed": 1, 
+    "auto_dynamic": true
+}

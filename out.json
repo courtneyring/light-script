@@ -1,0 +1,452 @@
+[
+    {
+        "actions": [
+            {
+                "target": {
+                    "rid": "f419434b-ec2d-46a9-b6f5-54c7481d894f",
+                    "rtype": "light"
+                },
+                "action": {
+                    "on": {
+                        "on": true
+                    },
+                    "dimming": {
+                        "brightness": 100
+                    },
+                    "color_temperature": {
+                        "mirek": 153
+                    }
+                }
+            }
+        ],
+        "metadata": {
+            "name": "4:00am"
+        },
+        "group": {
+            "rid": "f0f24e8e-43ab-4ccd-bd0a-445361393755",
+            "rtype": "room"
+        },
+        "speed": 1,
+        "auto_dynamic": true,
+        "palette": {
+            "color": [],
+            "dimming": [],
+            "effects": [],
+            "color_temperature": [
+                {
+                    "color_temperature": {
+                        "mirek": 153
+                    },
+                    "dimming": {
+                        "brightness": 100
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "actions": [
+            {
+                "target": {
+                    "rid": "f419434b-ec2d-46a9-b6f5-54c7481d894f",
+                    "rtype": "light"
+                },
+                "action": {
+                    "on": {
+                        "on": true
+                    },
+                    "dimming": {
+                        "brightness": 100
+                    },
+                    "color_temperature": {
+                        "mirek": 196
+                    }
+                }
+            }
+        ],
+        "metadata": {
+            "name": "11:00am"
+        },
+        "group": {
+            "rid": "f0f24e8e-43ab-4ccd-bd0a-445361393755",
+            "rtype": "room"
+        },
+        "speed": 1,
+        "auto_dynamic": true,
+        "palette": {
+            "color": [],
+            "dimming": [],
+            "effects": [],
+            "color_temperature": [
+                {
+                    "color_temperature": {
+                        "mirek": 196
+                    },
+                    "dimming": {
+                        "brightness": 100
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "actions": [
+            {
+                "target": {
+                    "rid": "f419434b-ec2d-46a9-b6f5-54c7481d894f",
+                    "rtype": "light"
+                },
+                "action": {
+                    "on": {
+                        "on": true
+                    },
+                    "dimming": {
+                        "brightness": 100
+                    },
+                    "color_temperature": {
+                        "mirek": 239
+                    }
+                }
+            }
+        ],
+        "metadata": {
+            "name": "12:37pm"
+        },
+        "group": {
+            "rid": "f0f24e8e-43ab-4ccd-bd0a-445361393755",
+            "rtype": "room"
+        },
+        "speed": 1,
+        "auto_dynamic": true,
+        "palette": {
+            "color": [],
+            "dimming": [],
+            "effects": [],
+            "color_temperature": [
+                {
+                    "color_temperature": {
+                        "mirek": 239
+                    },
+                    "dimming": {
+                        "brightness": 100
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "actions": [
+            {
+                "target": {
+                    "rid": "f419434b-ec2d-46a9-b6f5-54c7481d894f",
+                    "rtype": "light"
+                },
+                "action": {
+                    "on": {
+                        "on": true
+                    },
+                    "dimming": {
+                        "brightness": 100
+                    },
+                    "color_temperature": {
+                        "mirek": 282
+                    }
+                }
+            }
+        ],
+        "metadata": {
+            "name": "2:14pm"
+        },
+        "group": {
+            "rid": "f0f24e8e-43ab-4ccd-bd0a-445361393755",
+            "rtype": "room"
+        },
+        "speed": 1,
+        "auto_dynamic": true,
+        "palette": {
+            "color": [],
+            "dimming": [],
+            "effects": [],
+            "color_temperature": [
+                {
+                    "color_temperature": {
+                        "mirek": 282
+                    },
+                    "dimming": {
+                        "brightness": 100
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "actions": [
+            {
+                "target": {
+                    "rid": "f419434b-ec2d-46a9-b6f5-54c7481d894f",
+                    "rtype": "light"
+                },
+                "action": {
+                    "on": {
+                        "on": true
+                    },
+                    "dimming": {
+                        "brightness": 100
+                    },
+                    "color_temperature": {
+                        "mirek": 325
+                    }
+                }
+            }
+        ],
+        "metadata": {
+            "name": "3:51pm"
+        },
+        "group": {
+            "rid": "f0f24e8e-43ab-4ccd-bd0a-445361393755",
+            "rtype": "room"
+        },
+        "speed": 1,
+        "auto_dynamic": true,
+        "palette": {
+            "color": [],
+            "dimming": [],
+            "effects": [],
+            "color_temperature": [
+                {
+                    "color_temperature": {
+                        "mirek": 325
+                    },
+                    "dimming": {
+                        "brightness": 100
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "actions": [
+            {
+                "target": {
+                    "rid": "f419434b-ec2d-46a9-b6f5-54c7481d894f",
+                    "rtype": "light"
+                },
+                "action": {
+                    "on": {
+                        "on": true
+                    },
+                    "dimming": {
+                        "brightness": 100
+                    },
+                    "color_temperature": {
+                        "mirek": 368
+                    }
+                }
+            }
+        ],
+        "metadata": {
+            "name": "5:28pm"
+        },
+        "group": {
+            "rid": "f0f24e8e-43ab-4ccd-bd0a-445361393755",
+            "rtype": "room"
+        },
+        "speed": 1,
+        "auto_dynamic": true,
+        "palette": {
+            "color": [],
+            "dimming": [],
+            "effects": [],
+            "color_temperature": [
+                {
+                    "color_temperature": {
+                        "mirek": 368
+                    },
+                    "dimming": {
+                        "brightness": 100
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "actions": [
+            {
+                "target": {
+                    "rid": "f419434b-ec2d-46a9-b6f5-54c7481d894f",
+                    "rtype": "light"
+                },
+                "action": {
+                    "on": {
+                        "on": true
+                    },
+                    "dimming": {
+                        "brightness": 100
+                    },
+                    "color_temperature": {
+                        "mirek": 411
+                    }
+                }
+            }
+        ],
+        "metadata": {
+            "name": "7:05pm"
+        },
+        "group": {
+            "rid": "f0f24e8e-43ab-4ccd-bd0a-445361393755",
+            "rtype": "room"
+        },
+        "speed": 1,
+        "auto_dynamic": true,
+        "palette": {
+            "color": [],
+            "dimming": [],
+            "effects": [],
+            "color_temperature": [
+                {
+                    "color_temperature": {
+                        "mirek": 411
+                    },
+                    "dimming": {
+                        "brightness": 100
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "actions": [
+            {
+                "target": {
+                    "rid": "f419434b-ec2d-46a9-b6f5-54c7481d894f",
+                    "rtype": "light"
+                },
+                "action": {
+                    "on": {
+                        "on": true
+                    },
+                    "dimming": {
+                        "brightness": 100
+                    },
+                    "color_temperature": {
+                        "mirek": 454
+                    }
+                }
+            }
+        ],
+        "metadata": {
+            "name": "8:42pm"
+        },
+        "group": {
+            "rid": "f0f24e8e-43ab-4ccd-bd0a-445361393755",
+            "rtype": "room"
+        },
+        "speed": 1,
+        "auto_dynamic": true,
+        "palette": {
+            "color": [],
+            "dimming": [],
+            "effects": [],
+            "color_temperature": [
+                {
+                    "color_temperature": {
+                        "mirek": 454
+                    },
+                    "dimming": {
+                        "brightness": 100
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "actions": [
+            {
+                "target": {
+                    "rid": "f419434b-ec2d-46a9-b6f5-54c7481d894f",
+                    "rtype": "light"
+                },
+                "action": {
+                    "on": {
+                        "on": true
+                    },
+                    "dimming": {
+                        "brightness": 100
+                    },
+                    "color_temperature": {
+                        "mirek": 497
+                    }
+                }
+            }
+        ],
+        "metadata": {
+            "name": "10:19pm"
+        },
+        "group": {
+            "rid": "f0f24e8e-43ab-4ccd-bd0a-445361393755",
+            "rtype": "room"
+        },
+        "speed": 1,
+        "auto_dynamic": true,
+        "palette": {
+            "color": [],
+            "dimming": [],
+            "effects": [],
+            "color_temperature": [
+                {
+                    "color_temperature": {
+                        "mirek": 497
+                    },
+                    "dimming": {
+                        "brightness": 100
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "actions": [
+            {
+                "target": {
+                    "rid": "f419434b-ec2d-46a9-b6f5-54c7481d894f",
+                    "rtype": "light"
+                },
+                "action": {
+                    "on": {
+                        "on": true
+                    },
+                    "dimming": {
+                        "brightness": 100
+                    },
+                    "color_temperature": {
+                        "mirek": 500
+                    }
+                }
+            }
+        ],
+        "metadata": {
+            "name": "11:56pm"
+        },
+        "group": {
+            "rid": "f0f24e8e-43ab-4ccd-bd0a-445361393755",
+            "rtype": "room"
+        },
+        "speed": 1,
+        "auto_dynamic": true,
+        "palette": {
+            "color": [],
+            "dimming": [],
+            "effects": [],
+            "color_temperature": [
+                {
+                    "color_temperature": {
+                        "mirek": 500
+                    },
+                    "dimming": {
+                        "brightness": 100
+                    }
+                }
+            ]
+        }
+    }
+]

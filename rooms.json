@@ -1,0 +1,194 @@
+[
+  {
+    "id": "026d4279-d29b-43c9-8502-709480789bf2",
+    "id_v1": "/groups/3",
+    "children": [
+      {
+        "rid": "9a5e2394-8cfe-4d9d-9222-b6f3fad24be0",
+        "rtype": "device"
+      }
+    ],
+    "services": [
+      {
+        "rid": "ff397e0e-f47d-49a3-bf74-42afb6e32ef2",
+        "rtype": "grouped_light"
+      }
+    ],
+    "metadata": {
+      "name": "Closet",
+      "archetype": "living_room"
+    },
+    "type": "room"
+  },
+  {
+    "id": "51ad9cb3-a770-43f5-b959-055cdf9ab23e",
+    "id_v1": "/groups/5",
+    "children": [
+      {
+        "rid": "f05cab50-a9ea-4bd0-b52f-7158ad16975a",
+        "rtype": "device"
+      }
+    ],
+    "services": [
+      {
+        "rid": "5c3ae98d-ca16-4110-9e48-e0817bfb759b",
+        "rtype": "grouped_light"
+      }
+    ],
+    "metadata": {
+      "name": "Office",
+      "archetype": "office"
+    },
+    "type": "room"
+  },
+  {
+    "id": "72fdba9f-ccd0-46c7-8f87-554d24a4fba7",
+    "id_v1": "/groups/83",
+    "children": [
+      {
+        "rid": "08560fad-1592-426c-affe-f17f70963675",
+        "rtype": "device"
+      },
+      {
+        "rid": "117a51fc-0152-4262-ae43-d53fa8a5b3d1",
+        "rtype": "device"
+      }
+    ],
+    "services": [
+      {
+        "rid": "1ca4f232-ccce-4346-8a87-05524cfd515c",
+        "rtype": "grouped_light"
+      }
+    ],
+    "metadata": {
+      "name": "Living room",
+      "archetype": "living_room"
+    },
+    "type": "room"
+  },
+  {
+    "id": "972394bd-3e17-42f7-8a82-9d552df8e85c",
+    "id_v1": "/groups/4",
+    "children": [
+      {
+        "rid": "af0f703e-3721-414b-aa09-a9fb966399cd",
+        "rtype": "device"
+      },
+      {
+        "rid": "0a2b46f1-fd20-48cd-ad5d-5ba6d9416f11",
+        "rtype": "device"
+      }
+    ],
+    "services": [
+      {
+        "rid": "3ee3a523-e9cd-4ae2-858d-5c936a490953",
+        "rtype": "grouped_light"
+      }
+    ],
+    "metadata": {
+      "name": "Hallway",
+      "archetype": "living_room"
+    },
+    "type": "room"
+  },
+  {
+    "id": "a7ede8f2-65db-46f0-a99a-6557a148ed8d",
+    "id_v1": "/groups/84",
+    "children": [
+      {
+        "rid": "ea6b0cd1-1e29-4805-bfb6-6d06b3931a0c",
+        "rtype": "device"
+      },
+      {
+        "rid": "9c66ad5c-89cf-4405-b64d-120478ebc0b9",
+        "rtype": "device"
+      }
+    ],
+    "services": [
+      {
+        "rid": "8932a278-c3fe-472a-8486-ce5869580c80",
+        "rtype": "grouped_light"
+      }
+    ],
+    "metadata": {
+      "name": "Bathroom",
+      "archetype": "bathroom"
+    },
+    "type": "room"
+  },
+  {
+    "id": "ab72b9dc-c53d-4a1b-8cd3-788734d0fefc",
+    "id_v1": "/groups/1",
+    "children": [
+      {
+        "rid": "b6854556-74eb-4c2f-a7a8-424becb674b8",
+        "rtype": "device"
+      },
+      {
+        "rid": "a021e292-8b20-481a-84d5-583a35051184",
+        "rtype": "device"
+      },
+      {
+        "rid": "645b5967-5e4a-41b4-88da-ce2d7922b4d1",
+        "rtype": "device"
+      }
+    ],
+    "services": [
+      {
+        "rid": "875bca47-31c0-49b4-811a-d34a69aacaed",
+        "rtype": "grouped_light"
+      }
+    ],
+    "metadata": {
+      "name": "Kitchen",
+      "archetype": "living_room"
+    },
+    "type": "room"
+  },
+  {
+    "id": "e39cca0b-4555-4de7-baca-d35a3bce8b3b",
+    "id_v1": "/groups/2",
+    "children": [
+      {
+        "rid": "c215fe40-7da1-4d43-aeb6-5116024af751",
+        "rtype": "device"
+      },
+      {
+        "rid": "d31a29e6-353d-46fb-832c-30439710aefd",
+        "rtype": "device"
+      }
+    ],
+    "services": [
+      {
+        "rid": "f233a628-26e1-4dfd-91dd-e2b665a720b6",
+        "rtype": "grouped_light"
+      }
+    ],
+    "metadata": {
+      "name": "Bedroom",
+      "archetype": "living_room"
+    },
+    "type": "room"
+  },
+  {
+    "id": "f0f24e8e-43ab-4ccd-bd0a-445361393755",
+    "id_v1": "/groups/9",
+    "children": [
+      {
+        "rid": "913c121f-1873-4b3a-8f42-fc17305afa08",
+        "rtype": "device"
+      }
+    ],
+    "services": [
+      {
+        "rid": "d8535181-ce1f-4be5-82a5-55cd2732a911",
+        "rtype": "grouped_light"
+      }
+    ],
+    "metadata": {
+      "name": "AC",
+      "archetype": "bedroom"
+    },
+    "type": "room"
+  }
+]
