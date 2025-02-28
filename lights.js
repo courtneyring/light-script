@@ -1,4 +1,4 @@
-import { getScenes, getRooms, activateScene } from './hue.js';
+import { getScenes, getRooms, activateScene, checkForLight, getLight, getLightFromDevice } from './hue.js';
 import moment from 'moment';
 
 function closestTime(arr, time) {
@@ -16,11 +16,28 @@ function closestTime(arr, time) {
     const scenes = await getScenes();
     const now = +moment().format('x');
 
-    for (let room of rooms) {
-        const roomScenes = scenes.filter((scene) => scene.group.rid === room.id && scene.metadata.name.includes('script-'));
-        if (roomScenes.length === 0) continue;
-        const closest = closestTime(roomScenes, now);
-        await activateScene({ id: closest.id });
+    for (let room of rooms.slice(1,2)) {
+        // console.log(room.metadata.name);
+
+        let roomIsOn = false;
+        for (let child of room.children) {
+            const lightId = await checkForLight({ id: child.rid }) ? child.rid : await getLightFromDevice({ id: child.rid })
+            const light = await getLight({ id: lightId });
+            // console.log(light)
+            if (light[0].on.on) {
+                roomIsOn = true;
+                break;
+            }
+        }
+
+        if (roomIsOn) {
+            const roomScenes = scenes.filter((scene) => scene.group.rid === room.id && !scene.metadata.name.includes('script-'));
+
+            if (roomScenes.length === 0) continue;
+            const closest = closestTime(roomScenes, now);
+            await activateScene({ id: closest.id });
+        }
+        
 
 
         

@@ -84,16 +84,19 @@ async function formatSceneData({ on, group, startHour = 7, endHour = 20, totalSc
     await deleteAllScenes();
     const rooms = await getRooms();
     fs.writeFileSync('rooms.json', JSON.stringify(rooms, null, 2))
-    const maxSwitchScenes = 10;
-    const maxScriptScenes = Math.floor(200 / rooms.length - maxSwitchScenes);
+    // const maxSwitchScenes = 10;
+    const totalScenes = Math.floor(200 / rooms.length);
     
     for (let room of rooms) {
         // This is creating the scene for the script because the property 'on' cannot be true or all the lights will turn on 
-        let scriptScenes = await formatSceneData({ on: false, group: room, totalScenes: maxScriptScenes });
+        // let scriptScenes = await formatSceneData({ on: false, group: room, totalScenes: maxScriptScenes });
 
         // This is for the light switches because we need the property 'on' to be true for the lights to turn on
-        let switchScenes = await formatSceneData({ on: true, group: room, totalScenes: maxSwitchScenes }); 
-        await postScenes([...scriptScenes, ...switchScenes]);
+        // let switchScenes = await formatSceneData({ on: true, group: room, totalScenes: maxSwitchScenes }); 
+        // await postScenes([...scriptScenes, ...switchScenes]);
+
+        let scenes = await formatSceneData({ on: true, group: room, totalScenes });
+        await postScenes(scenes);
     }
 
 

@@ -23,6 +23,12 @@ const getLightFromDevice = async ({ id }) => {
     return lightId
 }
 
+const getLight = async({id}) => {
+    let resp = await fetch(`${url}/resource/light/${id}`, { headers });
+    let data = await resp.json();
+    return data.data;
+}
+
 async function getScenes() {
     let resp = await fetch(`${url}/resource/scene`, { headers });
     let scenes = await resp.json();
@@ -86,4 +92,15 @@ const activateScene = async ({ id }) => {
     console.log(data);
 }
 
-export { checkForLight, getLightFromDevice, getScenes, getRooms, getZone, postScene, postScenes, activateScene, deleteAllScenes };
+export { 
+    checkForLight, 
+    getLightFromDevice, 
+    getScenes, 
+    getRooms, 
+    getZone, 
+    postScene, 
+    postScenes, 
+    activateScene, 
+    deleteAllScenes, 
+    getLight
+};
