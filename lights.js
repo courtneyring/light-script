@@ -15,8 +15,9 @@ function closestTime(arr, time) {
     const rooms = await getRooms();
     const scenes = await getScenes();
     const now = +moment().format('x');
+    const regex = new RegExp("^([1-9]|1[0-2]):[0-5][0-9][a|p]m$")
 
-    for (let room of rooms.slice(1,2)) {
+    for (let room of rooms) {
         // console.log(room.metadata.name);
 
         let roomIsOn = false;
@@ -31,7 +32,7 @@ function closestTime(arr, time) {
         }
 
         if (roomIsOn) {
-            const roomScenes = scenes.filter((scene) => scene.group.rid === room.id && !scene.metadata.name.includes('script-'));
+            const roomScenes = scenes.filter((scene) => scene.group.rid === room.id && regex.test(scene.metadata.name));
 
             if (roomScenes.length === 0) continue;
             const closest = closestTime(roomScenes, now);
