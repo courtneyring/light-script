@@ -29,6 +29,16 @@ const getLight = async({id}) => {
     return data.data;
 }
 
+const updateLight = async ({ id, payload }) => {
+    let resp = await fetch(`${url}/resource/light/${id}`, {
+        headers,
+        method: 'PUT',
+        body: JSON.stringify(payload)
+    });
+    let data = await resp.json();
+    console.log(data);
+}
+
 async function getScenes() {
     let resp = await fetch(`${url}/resource/scene`, { headers });
     let scenes = await resp.json();
@@ -102,5 +112,6 @@ export {
     postScenes, 
     activateScene, 
     deleteAllScenes, 
-    getLight
+    getLight, 
+    updateLight
 };
