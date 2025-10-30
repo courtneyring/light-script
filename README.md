@@ -21,7 +21,8 @@ This is the script that runs at regular intervals using a cronjob to update the 
 
 Crontab is set to run every 30 minutes from 7am to 8pm
 ```
-*/1 7-20 * * * cd /Users/courtney.ring/Documents/dev-projects/light-script && export NODE_TLS_REJECT_UNAUTHORIZED='0' && /Users/courtney.ring/.nvm/versions/node/v20.13.1/bin/node lights.js
+*/3 7-20 * * * NODE_TLS_REJECT_UNAUTHORIZED='0' /usr/local/bin/node  /Users/courtneyring/Documents/dev-projects/light-script/lights.js
+
 ```
 
 Previously I was activating scenes based on time, I've now updated to only update the color temperature so that we can keep the brightness as is. I've left both versions in the code. 

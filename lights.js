@@ -1,8 +1,8 @@
 import { getScenes, getRooms, activateScene, checkForLight, getLight, getLightFromDevice, updateLight } from './hue.js';
 import moment from 'moment';
 
-const startHour = 7;
-const endHour = 20;
+const startHour = 6;
+const endHour = 22;
 const mirekMax = 500;
 const mirekMin = 153;
 const minutesPerMirek = ((endHour - startHour) * 60)  /(mirekMax - mirekMin);
@@ -18,7 +18,9 @@ function closestTime(arr, time) {
 
 const getMirek =  () => {
     const startMoment = moment().hour(startHour).minute(0);
+    console.log(startMoment.format('hh:mm a'))
     const minutesPast = moment().diff(startMoment, 'minutes');
+    console.log(minutesPast)
     const mirek = Math.floor(153 + minutesPast/minutesPerMirek);
     console.log(mirek)
     return mirek
@@ -34,6 +36,7 @@ const getMirek =  () => {
     for (let room of rooms) {
         for (let child of room.children) {
             const lightId = await checkForLight({ id: child.rid }) ? child.rid : await getLightFromDevice({ id: child.rid })
+            if (!lightId) continue
             const light = await getLight({ id: lightId });
             if (light[0].on.on) {
                 const payload = { color_temperature: { mirek: getMirek()}};

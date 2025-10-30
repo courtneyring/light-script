@@ -19,7 +19,8 @@ const getLightFromDevice = async ({ id }) => {
     if (!data.ok) return null;
     let json = await data.json()
     let services = json.data[0].services
-    let lightId = services.find((service) => service.rtype == 'light').rid
+    console.log(services.find((service) => service.rtype == 'light'))
+    let lightId = services.find((service) => service.rtype == 'light')?.rid
     return lightId
 }
 
